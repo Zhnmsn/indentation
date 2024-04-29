@@ -1,0 +1,54 @@
+
+.margin-side__title {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.margin-side__img {
+    margin-right: 20px;
+    float: left;
+}
+
+.margin-side__wrap {
+    width: 490px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    display: inline-block;
+}
+
+.margin-side__text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.margin-h__img {
+    float: right;
+}
+
+.margin-h__wrap {
+    width: 480px;
+}
+
+.margin-h__text {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    height: 72px;
+}
+
+.margin-h__text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.margin-side__wrapper{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.margin-h__wrapper {
+    overflow: auto;
+}
+

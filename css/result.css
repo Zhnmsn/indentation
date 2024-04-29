@@ -1,0 +1,36 @@
+.result {
+    border-radius: 10px;
+    background: rgb(241, 241, 241);
+    padding-left: 45px;
+    height: 385px;
+}
+
+.result__title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 21px;
+    padding-top: 25px;
+}
+
+.result__list li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.result__list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.result__list {
+    margin-bottom: 30px;
+}
+
+.result__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    width: 1060px;
+}
+

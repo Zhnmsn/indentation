@@ -1,0 +1,47 @@
+.last-DOM__text, .last-DOM__text_margin {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.last-DOM__title {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.last-DOM_png {
+    margin-bottom: 30px;
+}
+
+#last-DOM img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last-DOM__text:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.last-DOM__text_margin {
+    margin-bottom: 31px;
+}
+
+.last-DOM__img img {
+    margin-bottom: 15px;
+}
+
+.last-DOM__descript {
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 15px 30px;
+}
+
+.last-DOM__img {
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
