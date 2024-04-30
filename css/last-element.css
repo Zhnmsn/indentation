@@ -24,3 +24,32 @@
     margin-bottom: 0;
 }
 
+.last-element__png-null {
+    width: 600px;
+    height: 600px;
+}
+
+.last-element__png-advice {
+    width: 1080px;
+    height: 1058px;
+}
+
+.last-element__png-methed {
+    width: 1080px;
+    height: 88px;
+}
+
+.last-element__png-nav {
+    width: 806px;
+    height: 475px;
+}
+
+.last-element__png-right {
+    width: 317px;
+    height: 110px;
+}
+
+.last-element__png-child {
+    width: 500px;
+    height: 383px;
+}

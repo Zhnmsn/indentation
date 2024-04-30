@@ -40,7 +40,7 @@
             <div class="container">
             <h3 class="margin-side__title"> Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h3>
             <div class="margin-side__wrapper">
-                <img class="margin-side__img" src="img/margin-side.png" alt="Отступы сторон" width="560px" height="415px" >
+                <img class="margin-side__img" src="img/margin-side.png" alt="Отступы сторон">
                 <div class="margin-side__wrap">
                     <p class="margin-side__text"> ВАЖНО: margin всегда задают от предыдущего элемента к следующему.</p>
                     <p class="margin-side__text"> Свойство margin необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, 
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="margin-h__wrapper">
-                <img class="margin-h__img" src="img/margin-h.png" alt="Отступы заголовка" width="568px" height="279px">
+                <img class="margin-h__img" src="img/margin-h.png" alt="Отступы заголовка">
                 <div class="margin-h__wrap">
                     <p class="margin-h__text"> Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.</p>
                     <p class="margin-h__text"> Отступы, как правило, делают в направлении от предыдущего элемента к следующему. 
@@ -66,21 +66,21 @@
             <div class="container">
                 <h3 class="last-DOM__title"> Отступ задается последнему возможному элементу в DOM-дереве</h3>
                 <p class="last-DOM__text"> Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
-                <img class="last-DOM_png" src="img/margin-lastDOM.png" alt="Отступ последнему элементу DOM" width="1080px" height="537px">
-                <img class="last-DOM_png" src="img/useful-recipes.png" alt="Описание отступов" width="600px" height="450px">
+                <img class="last-DOM__png-li" src="img/margin-lastDOM.png" alt="Отступ последнему элементу DOM">
+                <img class="last-DOM__png-rec" src="img/useful-recipes.png" alt="Описание отступов">
                 <p class="last-DOM__text_margin"> Отступ делают за счёт соседних элементов, а не дочерних:</p>
                 <figure class="last-DOM__img"> 
-                    <img src="img/wide-useful-recipes.png" alt="Описание отступов" width="1080px" height="427px">
+                    <img src="img/wide-useful-recipes.png" alt="Описание отступов">
                     <figcaption class="last-DOM__descript"> ВАЖНО: здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.</figcaption>
                 </figure>
                 <p class="last-DOM__text"> Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке &lt;article&gt; для достижения той же цели. 
                 Внешне останется все точно также, но так делать не рекомендуется.</p>
                 <p class="last-DOM__text"> Предыдущий пример был достаточно простым, но бывает вложенность значительно больше. </p>
-                <img class="last-DOM_png" src="img/div-container.png" alt="Заголовок в div" width="964px" height="164px">
+                <img class="last-DOM_png-div" src="img/div-container.png" alt="Заголовок в div">
                 <p class="last-DOM__text"> В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section.
                 Именно для него задается padding-top, а не div с классом container.
                 Свойства margin, которые стоят по умолчанию необходимо обнулить.</p>
-                <img class="last-DOM_png" src="img/Section-h.png" alt="Заголовок в секции" width="1022px" height="524px">
+                <img class="last-DOM_png-sec" src="img/Section-h.png" alt="Заголовок в секции">
                 <p class="last-DOM__text"> Это необходимо для более простого поиска отступов в будущем — для вас или того, 
                 кто будет верстать после вас. Кроме того, возможны серьёзные проблемы при 
                 динамическом дублировании или выводе вёрстки с нестандартной структурой отступов.</p>
@@ -91,19 +91,19 @@
                 <h3 class="last-element__title"> Для последнего элемента группы отступ всегда обнуляется </h3>
                 <p class="last-element__text"> Для наглядности возьмём наш предыдущий пример с рецептами</p>
                 <p class="last-element__text"> Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же. </p>
-                <img src="img/last-element.png" alt="Обнуления отступа для последнего элемента группы" width="600px" height="600px">
+                <img class="last-element__png-null" src="img/last-element.png" alt="Обнуления отступа для последнего элемента группы">
                 <p class="last-element__text"> В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для section. 
                 Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 
                 100px задаю секциям padding-top:50px и padding-bottom:50px.</p>
-                <img src="img/last-element-no-margin.png" alt="Обнуления отступа для последнего элемента группы" width="600px" height="607px">
-                <img src="img/Example-advice.png" alt="Примеры обнуления отступа" width="1080px" height="1058px">
+                <img class="last-element__png-no" src="img/last-element-no-margin.png" alt="Обнуления отступа для последнего элемента группы">
+                <img class="last-element__png-advice" src="img/Example-advice.png" alt="Примеры обнуления отступа">
                 <p class="last-element__text"> Для большего понимания рассмотрим другой пример, который часто встречается на практике:</p>
-                <img src="img/navigation-methed.png" alt="Панель навигации Метхед" width="1080px" height="88px">
-                <img src="img/Example-nav.png" alt="Пример с навигацией и отступами" width="806px" height="475px">
+                <img class="last-element__png-methed" src="img/navigation-methed.png" alt="Панель навигации Метхед">
+                <img class="last-element__png-nav" src="img/Example-nav.png" alt="Пример с навигацией и отступами">
                 <p class="last-element__text"> Здесь нас интересует отступ между пунктами меню и списком с кнопкой поиска. Отступы между пунктами меню задаются так:</p>
-                <img src="img/margin-right.png" alt="Отступ справа">
+                <img class="last-element__png-right" src="img/margin-right.png" alt="Отступ справа">
                 <p class="last-element__text"> Советую использовать псевдоклассы :last-child чаще других, например так:</p>
-                <img src="img/last-chid.png" alt="псевдоклассы" width="500" height="383px">
+                <img class="last-element__png-child" src="img/last-chid.png" alt="псевдоклассы">
             </div>
         </section>
         <section> 

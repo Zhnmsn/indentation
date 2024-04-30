@@ -11,6 +11,35 @@
     margin-bottom: 30px;
 }
 
+.last-DOM__png-li {
+    width: 1080px;
+    height: 537px;
+    margin-bottom: 30px;
+}
+
+.last-DOM__png-rec {
+    width: 600px;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.last-DOM__img img {
+    width: 1080px;
+    height: 427px;
+}
+
+.last-DOM_png-div {
+    width: 964px;
+    height: 164px;
+    margin-bottom: 30px;
+}
+
+.last-DOM_png-sec{
+    width: 1022px;
+    height: 524px;
+    margin-bottom: 30px;
+}
+
 .last-DOM_png {
     margin-bottom: 30px;
 }
@@ -28,8 +57,6 @@
 .last-DOM__text_margin {
     margin-bottom: 31px;
 }
-
-
 
 .last-DOM__descript {
     color: rgb(94, 94, 94);
