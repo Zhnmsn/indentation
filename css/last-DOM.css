@@ -29,19 +29,39 @@
     margin-bottom: 31px;
 }
 
-.last-DOM__img img {
-    margin-bottom: 15px;
-}
+
 
 .last-DOM__descript {
     color: rgb(94, 94, 94);
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
-    margin: 15px 30px;
+    padding: 15px 30px;
 }
 
 .last-DOM__img {
-    border: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
     margin-bottom: 30px;
+    position: relative;
+}
+
+.last-DOM__img::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 78px;
+    background:  black;
+    bottom:  0;
+    left: 0;
+}
+
+.last-DOM__img::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 78px;
+    background:  black;
+    bottom:  0;
+    right: 0;
 }

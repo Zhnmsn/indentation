@@ -17,11 +17,7 @@ a {
     color: rgb(2, 83, 95);
 }
 
-#margin-side {
-    padding-top: 50px;
-}
-
-section, nav {
+section {
     padding-top: 50px;
     max-width: 100%;
 }
